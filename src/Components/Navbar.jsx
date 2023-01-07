@@ -17,20 +17,7 @@ const Navbar = () => {
     
   ];
   return (
-    // // <HStack p={"4"} shadow={"base"} bgColor={"blackAlpha.900"}>
-    //   <Flex p={"4"}justifyContent="space-around" shadow={"base"} bgColor={"blackAlpha.900"}>
-
-    //   <Button variant={"unstyled"} color={"white"}>
-    //     <Link to="/">Home</Link>
-    //   </Button>
-    //   <Button variant={"unstyled"} color={"white"}>
-    //     <Link to="/">Exchanges</Link>
-    //   </Button>
-    //   <Button variant={"unstyled"} color={"white"}>
-    //     <Link to="/coins">Coins</Link>
-    //   </Button>
-    //   </Flex>
-    // // </HStack>
+    
     <div className={style.navMain}>
       <div className={style.nav}>
         {links.map((link) => (
